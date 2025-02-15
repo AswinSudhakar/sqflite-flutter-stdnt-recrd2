@@ -30,6 +30,14 @@ class HomeScreen extends StatelessWidget {
               },
               child: Icon(Icons.add),
             ),
+            floatingActionButtonLocation:
+                FloatingActionButtonLocation.centerDocked,
+            bottomNavigationBar: BottomAppBar(
+              color: Colors.blue, // Set the amber background color
+              shape:
+                  CircularNotchedRectangle(), // Notch for the floating action button
+              child: SizedBox(height: 60), // Height of the BottomAppBar
+            ),
             appBar: AppBar(
               toolbarHeight: 90,
               backgroundColor: Colors.blue,
